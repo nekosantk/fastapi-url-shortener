@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  fastapi_url_shortener:
+    image: nekosantk/fastapi-url-shortener:latest
+    ports:
+      - 8000:8000
+    container_name: fastapi-url-shortener
+
+volumes:
+  fastapiapp:
