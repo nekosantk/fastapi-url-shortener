@@ -1,0 +1,5 @@
+fastapi==0.92.0
+uvicorn==0.20.0
+sqlalchemy==1.4.45
+python-dotenv==1.0.0
+validators==0.11.2
